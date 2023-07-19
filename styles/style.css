@@ -1,0 +1,178 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+/* common styles */
+.paragraph-style {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+}
+/* header styles */
+header {
+    padding: 38px 240px;
+    background-color: #FFF;
+}
+/* .header-one {
+    display: flex;
+
+} */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-one {
+    display: flex;
+    align-items: center;
+}
+.header-one h3 {
+    font-size: 45px;
+    font-weight: 700;
+    padding: 0 20px;
+}
+.header-one img {
+    width: 86.041px;
+height: 40px;
+flex-shrink: 0;
+}
+.header-two {
+    display: flex;
+    align-items: center;
+}
+.header-two p {
+    padding: 0 20px;
+}
+.pink-g {
+    color: #FF42A5 ;
+}
+.border-color {
+    border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+padding: 17px 24px;
+}
+/* banner styles */
+.banner {
+    display: flex;
+    padding: 0px 240px;
+    gap: 50px;
+    background-image: url(../images/Group\ 14.png);
+}
+
+.banner-one h2 {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+}
+.banner-one h3 {
+    font-size: 95px;
+    font-weight: 800;
+    color: #8758F1 ;
+}
+.button {
+    display: flex;
+    gap: 24px;
+}
+.button-one {
+    padding: 21px 40px;
+    border-radius: 48px;
+    background-color: #FF42A5 ;
+    text-align: center;
+}
+.button-two {
+    padding: 21px 40px;
+    border-radius: 48px;
+    background-color: #4EC5F7 ;
+    text-align: center;
+}
+/* center heading style */
+.center-heading h3 {
+     text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+.center-heading p {
+    text-align: center;
+}
+.heading-color {
+    color: #8758F1 ;
+}
+/* card styles */
+.cards {
+    display: flex;
+    gap: 24px;
+
+}
+.cards img {
+    width: 342px;
+height: 400px;
+justify-content: space-between;
+text-align: center;
+}
+/* banner-description */
+.banner-description {
+    display: flex;
+    padding: 50px 240px;
+    gap: 50px;
+}
+.banner-description h4 {
+font-size: 48px;
+font-weight: 700;
+color: #8758F1 ;
+}
+.banner-description h3 {
+    font-size: 48px;
+    font-weight: 700;
+}
+.banner-description-two .relative {
+    position: relative;
+    bottom: 260px;
+}
+/* classification-games */
+.classification-games-one  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.classification-games-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    background-color: #0B0223;
+    color: #FFF;
+    
+    width: 1920px;
+height: 636px;
+
+}
+footer img {
+    width: 86.041px;
+height: 40px;
+}
+.footer-one {
+    text-align: center;
+}
+.footer-paragraph {
+    display: flex;
+    align-items: center;
+}
+.footer-icon {
+    align-items: center;
+}
+
+
+/* responsive styles */
+@media screen and (max-width:576px) {
+    nav,
+    .header-one,
+    .header-two,
+    .banner,
+    .cards,
+    .banner-description
+     {
+        flex-direction: column;
+    }
+}
