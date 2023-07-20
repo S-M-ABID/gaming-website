@@ -112,7 +112,7 @@ text-align: center;
 /* banner-description */
 .banner-description {
     display: flex;
-    padding: 50px 240px;
+    padding: 50px 240px 0 240px;
     gap: 50px;
 }
 .banner-description h4 {
@@ -127,8 +127,13 @@ color: #8758F1 ;
 .banner-description-two .relative {
     position: relative;
     bottom: 260px;
+width: 318.5px;
+height: 365.083px;
 }
 /* classification-games */
+.classification-games {
+    padding: 0px 0px 60px 0px;
+}
 .classification-games-one  {
     display: flex;
     justify-content: center;
@@ -143,10 +148,7 @@ color: #8758F1 ;
 footer {
     background-color: #0B0223;
     color: #FFF;
-    
-    width: 1920px;
-height: 636px;
-
+    padding: 120px 240px;
 }
 footer img {
     width: 86.041px;
@@ -155,12 +157,29 @@ height: 40px;
 .footer-one {
     text-align: center;
 }
-.footer-paragraph {
+.footer-paragraph-one {
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+.footer-paragraph-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.last-footer {
+   text-align: center;
+
+}
+.footer-paragraph-two p {
+    padding: 20px;
 }
 .footer-icon {
-    align-items: center;
+    text-align: center;
+    /* padding: 10px; */
+}
+.footer-icon i {
+    padding: 10px;
 }
 
 
@@ -171,7 +190,11 @@ height: 40px;
     .header-two,
     .banner,
     .cards,
-    .banner-description
+    .banner-description,
+    .classification-games-one,
+    .classification-games-two,
+    .footer-paragraph-one,
+    .footer-paragraph-two
      {
         flex-direction: column;
     }
